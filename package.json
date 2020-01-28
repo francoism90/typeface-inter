@@ -1,0 +1,34 @@
+{
+  "name": "@francoism90/typeface-inter",
+  "version": "3.11.1",
+  "description": "Dist for Inter Webfont.",
+  "main": "scss/inter.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francoism90/typeface-inter.git"
+  },
+  "keywords": [
+    "inter",
+    "typeface",
+    "font",
+    "webfont"
+  ],
+  "author": "François Menning",
+  "licenses": [
+    {
+      "type": "OFL-1.1",
+      "url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.html"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/francoism90/typeface-inter/issues"
+  },
+  "homepage": "https://github.com/francoism90/typeface-inter"
+}
