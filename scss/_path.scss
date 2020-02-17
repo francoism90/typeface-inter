@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url('#{$inter-font-path}/#{$inter-filename}-Thin-BETA.woff2?v=#{$inter-version}') format('woff2');
+  src: url('#{$inter-font-path}/#{$inter-filename}-Thin.woff2?v=#{$inter-version}') format('woff2');
 }
 
 @font-face {
@@ -12,7 +12,7 @@
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url('#{$inter-font-path}/#{$inter-filename}-ThinItalic-BETA.woff2?v=#{$inter-version}') format('woff2');
+  src: url('#{$inter-font-path}/#{$inter-filename}-ThinItalic.woff2?v=#{$inter-version}') format('woff2');
 }
 
 // ExtraLight
@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url('#{$inter-font-path}/#{$inter-filename}-ExtraLight-BETA.woff2?v=#{$inter-version}') format('woff2');
+  src: url('#{$inter-font-path}/#{$inter-filename}-ExtraLight.woff2?v=#{$inter-version}') format('woff2');
 }
 
 @font-face {
@@ -29,7 +29,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url('#{$inter-font-path}/#{$inter-filename}-ExtraLightItalic-BETA.woff2?v=#{$inter-version}') format('woff2');
+  src: url('#{$inter-font-path}/#{$inter-filename}-ExtraLightItalic.woff2?v=#{$inter-version}') format('woff2');
 }
 
 // Light
@@ -38,7 +38,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url('#{$inter-font-path}/#{$inter-filename}-Light-BETA.woff2?v=#{$inter-version}') format('woff2');
+  src: url('#{$inter-font-path}/#{$inter-filename}-Light.woff2?v=#{$inter-version}') format('woff2');
 }
 
 @font-face {
@@ -46,7 +46,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url('#{$inter-font-path}/#{$inter-filename}-LightItalic-BETA.woff2?v=#{$inter-version}') format('woff2');
+  src: url('#{$inter-font-path}/#{$inter-filename}-LightItalic.woff2?v=#{$inter-version}') format('woff2');
 }
 
 // Regular
@@ -149,4 +149,32 @@
   font-weight: 900;
   font-display: swap;
   src: url('#{$inter-font-path}/#{$inter-filename}-BlackItalic.woff2?v=#{$inter-version}') format('woff2');
+}
+
+// Variable
+@font-face {
+  font-family: '#{$inter-font-name} var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('#{$inter-font-path}/#{$inter-filename}-roman.var.woff2?v=#{$inter-version}') format('woff2');
+}
+
+@font-face {
+  font-family: '#{$inter-font-name} var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('#{$inter-font-path}/#{$inter-filename}-italic.var.woff2?v=#{$inter-version}') format('woff2');
+}
+
+// Variable (experimental)
+@font-face {
+  font-family: '#{$inter-font-name} var experimental';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: oblique 0deg 10deg;
+  src: url('#{$inter-font-path}/#{$inter-filename}.var.woff2?v=#{$inter-version}') format('woff2');
 }

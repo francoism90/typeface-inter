@@ -1,6 +1,6 @@
 {
   "name": "@francoism90/typeface-inter",
-  "version": "3.11.1",
+  "version": "3.12.0",
   "description": "Dist for Inter Webfont.",
   "main": "scss/inter.scss",
   "scripts": {
